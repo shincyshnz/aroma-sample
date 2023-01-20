@@ -1,0 +1,14 @@
+CRITICAL - 2023-01-17 04:45:41 --> Too few arguments to function App\Controllers\Pages::view(), 0 passed in /var/www/html/aroma/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /var/www/html/aroma/system/CodeIgniter.php(825): App\Controllers\Pages->view()
+#1 /var/www/html/aroma/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/aroma/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/aroma/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-17 04:50:37 --> strpos(): Argument #1 ($haystack) must be of type string, array given
+#0 /var/www/html/aroma/system/Router/Router.php(421): strpos()
+#1 /var/www/html/aroma/system/Router/Router.php(154): CodeIgniter\Router\Router->checkRoutes()
+#2 /var/www/html/aroma/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#3 /var/www/html/aroma/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/html/aroma/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/aroma/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
