@@ -35,8 +35,13 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 // $routes->get('/', 'Home::index');
+// $routes->get('/(:segment)', 'Pages::view/$1');
+
 $routes->get('/', 'Pages::index');
-$routes->get('(:segment)', 'Pages::view/$1');
+$routes->get('/index-2', 'Pages::index2');
+$routes->post('/sendemail', 'SendEmail::index');
+$routes->post('/register', 'Pages::register');
+$routes->get('/(:segment)', 'Pages::view/$1');
 
 /*
  * --------------------------------------------------------------------

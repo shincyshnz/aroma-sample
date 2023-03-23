@@ -67,7 +67,7 @@
             <li><i class="bi bi-check2-circle"></i> <span>Our Major project, "Home for Homless" is in progress, as it is our Dream project.</span></li>
           </ul>
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 text-center">
+        <div class="col-lg-6 pt-4 pt-lg-0 align-self-center">
           <img src="<?= base_url(); ?>/assets/img/aromaImages/wedding.jpg" class="img-fluid rounded-5 shadow" alt="Massive Wedding">
         </div>
       </div>
