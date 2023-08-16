@@ -1,1 +1,1 @@
-Live : [https://uae.aroma-aluva.com/public/committee]
+Live : [https://uae.aroma-aluva.com/public]
